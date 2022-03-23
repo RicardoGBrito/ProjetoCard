@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.titulo {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.formulario li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* titulo do formulario */
+.formulario > li > label,
+.formulario li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase; 
+}
+ 
+/* campo para preencher o formulario */
+.formulario > li > label + * {
+  flex: 1 0 150px;
+  height: 25px;
+}
+
+.botoes {
+  margin-left: auto;
+}
+
+.formulario li .botao {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards > h1{
+  margin:0px 0px 25px 0px;
+  font-variant-caps:petite-caps;
+}
+
+h3{
+  margin:15px 5px;
+
+}
+
+p{
+  font-size:0.6rem;
+}
+
+.cards {
+  flex: 1 1 150px;
+  margin: 5px;
+  border-radius:20px; 
+  margin-top:30px; 
+  margin-left:30px; 
+  padding:20px; 
+  align-items: center;
+  text-align: center;
+}
+
+/* Tablet */
+@media (min-width: 465px) {
+  
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .container {
+    width: 65%;
+  }
+}

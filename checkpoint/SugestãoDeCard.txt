@@ -1,0 +1,6 @@
+CATEGORIA: Guerra
+TÍTULO: Rússia invade a Ucrânia
+DESCRIÇÃO: Rússia bombardeia a Ucrânia. Diversos caças hipersônicos foram enviados à Ucrânia, o que resultou na morte de dezenas de civis, dentre eles, mulheres e crianças!!
+COR BACKGROUND: black
+COR TEXTO: red/gold/white/yellow
+URL: https://diariodonordeste.verdesmares.com.br/image/contentid/policy:1.3203635:1647246858/guerra.jpg?f=16x9&h=720&q=0.8&w=1280&$p$f$h$q$w=eb780cf
